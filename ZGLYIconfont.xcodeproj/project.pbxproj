@@ -29,6 +29,10 @@
 		237FAD501F39496000D61104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD4E1F39496000D61104 /* Main.storyboard */; };
 		237FAD521F39496000D61104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD511F39496000D61104 /* Assets.xcassets */; };
 		237FAD551F39496000D61104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD531F39496000D61104 /* LaunchScreen.storyboard */; };
+		237FAD661F394D4B00D61104 /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 237FAD611F394D4B00D61104 /* TBCityIconFont.m */; };
+		237FAD671F394D4B00D61104 /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 237FAD631F394D4B00D61104 /* TBCityIconInfo.m */; };
+		237FAD681F394D4B00D61104 /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 237FAD651F394D4B00D61104 /* UIImage+TBCityIconFont.m */; };
+		237FAD6A1F394D6800D61104 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD691F394D6800D61104 /* iconfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,9 +66,16 @@
 		237FAD411F39496000D61104 /* ZGMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGMineController.h; sourceTree = "<group>"; };
 		237FAD421F39496000D61104 /* ZGMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGMineController.m; sourceTree = "<group>"; };
 		237FAD4F1F39496000D61104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		237FAD511F39496000D61104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		237FAD511F39496000D61104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		237FAD541F39496000D61104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		237FAD561F39496000D61104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		237FAD561F39496000D61104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		237FAD601F394D4B00D61104 /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
+		237FAD611F394D4B00D61104 /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
+		237FAD621F394D4B00D61104 /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
+		237FAD631F394D4B00D61104 /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
+		237FAD641F394D4B00D61104 /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+		237FAD651F394D4B00D61104 /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		237FAD691F394D6800D61104 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,14 +124,6 @@
 		237FAD111F39496000D61104 /* ZGLYIconfont */ = {
 			isa = PBXGroup;
 			children = (
-				237FAD151F39496000D61104 /* AppDelegate.h */,
-				237FAD161F39496000D61104 /* AppDelegate.m */,
-				237FAD181F39496000D61104 /* ViewController.h */,
-				237FAD191F39496000D61104 /* ViewController.m */,
-				237FAD4E1F39496000D61104 /* Main.storyboard */,
-				237FAD511F39496000D61104 /* Assets.xcassets */,
-				237FAD531F39496000D61104 /* LaunchScreen.storyboard */,
-				237FAD561F39496000D61104 /* Info.plist */,
 				237FAD4C1F39496000D61104 /* Utils */,
 				237FAD4A1F39496000D61104 /* Resource */,
 				237FAD481F39496000D61104 /* ThridParty */,
@@ -137,6 +140,8 @@
 		237FAD121F39496000D61104 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				237FAD4E1F39496000D61104 /* Main.storyboard */,
+				237FAD531F39496000D61104 /* LaunchScreen.storyboard */,
 				237FAD131F39496000D61104 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -170,6 +175,10 @@
 		237FAD2C1F39496000D61104 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				237FAD151F39496000D61104 /* AppDelegate.h */,
+				237FAD161F39496000D61104 /* AppDelegate.m */,
+				237FAD181F39496000D61104 /* ViewController.h */,
+				237FAD191F39496000D61104 /* ViewController.m */,
 				237FAD2D1F39496000D61104 /* AppDelegate+AppService.h */,
 				237FAD2E1F39496000D61104 /* AppDelegate+AppService.m */,
 			);
@@ -305,6 +314,8 @@
 		237FAD4A1F39496000D61104 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				237FAD511F39496000D61104 /* Assets.xcassets */,
+				237FAD561F39496000D61104 /* Info.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -312,8 +323,23 @@
 		237FAD4C1F39496000D61104 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				237FAD5F1F394D4B00D61104 /* IconFont */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		237FAD5F1F394D4B00D61104 /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD691F394D6800D61104 /* iconfont.ttf */,
+				237FAD601F394D4B00D61104 /* TBCityIconFont.h */,
+				237FAD611F394D4B00D61104 /* TBCityIconFont.m */,
+				237FAD621F394D4B00D61104 /* TBCityIconInfo.h */,
+				237FAD631F394D4B00D61104 /* TBCityIconInfo.m */,
+				237FAD641F394D4B00D61104 /* UIImage+TBCityIconFont.h */,
+				237FAD651F394D4B00D61104 /* UIImage+TBCityIconFont.m */,
+			);
+			path = IconFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +408,7 @@
 				237FAD451F39496000D61104 /* View in Resources */,
 				237FAD471F39496000D61104 /* Manager in Resources */,
 				237FAD501F39496000D61104 /* Main.storyboard in Resources */,
+				237FAD6A1F394D6800D61104 /* iconfont.ttf in Resources */,
 				237FAD4D1F39496000D61104 /* Utils in Resources */,
 				237FAD551F39496000D61104 /* LaunchScreen.storyboard in Resources */,
 				237FAD491F39496000D61104 /* ThridParty in Resources */,
@@ -397,8 +424,11 @@
 			files = (
 				237FAD281F39496000D61104 /* ZGNavigationController.m in Sources */,
 				237FAD1A1F39496000D61104 /* ViewController.m in Sources */,
+				237FAD671F394D4B00D61104 /* TBCityIconInfo.m in Sources */,
+				237FAD661F394D4B00D61104 /* TBCityIconFont.m in Sources */,
 				237FAD2B1F39496000D61104 /* ZGTabBarController.m in Sources */,
 				237FAD251F39496000D61104 /* ZGBaseController.m in Sources */,
+				237FAD681F394D4B00D61104 /* UIImage+TBCityIconFont.m in Sources */,
 				237FAD171F39496000D61104 /* AppDelegate.m in Sources */,
 				237FAD141F39496000D61104 /* main.m in Sources */,
 				237FAD2F1F39496000D61104 /* AppDelegate+AppService.m in Sources */,
@@ -523,6 +553,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGLYIconfont/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGLYIconfont/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = offcn.ZGLYIconfont;
@@ -534,6 +566,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGLYIconfont/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGLYIconfont/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = offcn.ZGLYIconfont;
