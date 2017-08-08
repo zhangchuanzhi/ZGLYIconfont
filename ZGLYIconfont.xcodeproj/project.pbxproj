@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		237FAD0A1F39496000D61104 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237FAD091F39496000D61104 /* SystemConfiguration.framework */; };
+		237FAD0C1F39496000D61104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237FAD0B1F39496000D61104 /* Foundation.framework */; };
+		237FAD0E1F39496000D61104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237FAD0D1F39496000D61104 /* UIKit.framework */; };
+		237FAD101F39496000D61104 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237FAD0F1F39496000D61104 /* CoreImage.framework */; };
+		237FAD141F39496000D61104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 237FAD131F39496000D61104 /* main.m */; };
+		237FAD171F39496000D61104 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 237FAD161F39496000D61104 /* AppDelegate.m */; };
+		237FAD1A1F39496000D61104 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 237FAD191F39496000D61104 /* ViewController.m */; };
+		237FAD1D1F39496000D61104 /* PrefixHeader.pch in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD1C1F39496000D61104 /* PrefixHeader.pch */; };
+		237FAD251F39496000D61104 /* ZGBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 237FAD241F39496000D61104 /* ZGBaseController.m */; };
+		237FAD281F39496000D61104 /* ZGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 237FAD271F39496000D61104 /* ZGNavigationController.m */; };
+		237FAD2B1F39496000D61104 /* ZGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 237FAD2A1F39496000D61104 /* ZGTabBarController.m */; };
+		237FAD2F1F39496000D61104 /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = 237FAD2E1F39496000D61104 /* AppDelegate+AppService.m */; };
+		237FAD371F39496000D61104 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD361F39496000D61104 /* View */; };
+		237FAD3E1F39496000D61104 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD3D1F39496000D61104 /* View */; };
+		237FAD451F39496000D61104 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD441F39496000D61104 /* View */; };
+		237FAD471F39496000D61104 /* Manager in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD461F39496000D61104 /* Manager */; };
+		237FAD491F39496000D61104 /* ThridParty in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD481F39496000D61104 /* ThridParty */; };
+		237FAD4B1F39496000D61104 /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD4A1F39496000D61104 /* Resource */; };
+		237FAD4D1F39496000D61104 /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD4C1F39496000D61104 /* Utils */; };
+		237FAD501F39496000D61104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD4E1F39496000D61104 /* Main.storyboard */; };
+		237FAD521F39496000D61104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD511F39496000D61104 /* Assets.xcassets */; };
+		237FAD551F39496000D61104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237FAD531F39496000D61104 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		237FAD061F39496000D61104 /* ZGLYIconfont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGLYIconfont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		237FAD091F39496000D61104 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		237FAD0B1F39496000D61104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		237FAD0D1F39496000D61104 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		237FAD0F1F39496000D61104 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		237FAD131F39496000D61104 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		237FAD151F39496000D61104 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		237FAD161F39496000D61104 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		237FAD181F39496000D61104 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		237FAD191F39496000D61104 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		237FAD1C1F39496000D61104 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = Define/PrefixHeader.pch; sourceTree = "<group>"; };
+		237FAD1E1F39496000D61104 /* ZGFontAndColorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZGFontAndColorMacros.h; path = Define/ZGFontAndColorMacros.h; sourceTree = "<group>"; };
+		237FAD1F1F39496000D61104 /* ZGThirdMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZGThirdMacros.h; path = Define/ZGThirdMacros.h; sourceTree = "<group>"; };
+		237FAD201F39496000D61104 /* ZGURLMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZGURLMacros.h; path = Define/ZGURLMacros.h; sourceTree = "<group>"; };
+		237FAD211F39496000D61104 /* ZGUtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZGUtilsMacros.h; path = Define/ZGUtilsMacros.h; sourceTree = "<group>"; };
+		237FAD231F39496000D61104 /* ZGBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZGBaseController.h; path = Base/ZGBaseController.h; sourceTree = "<group>"; };
+		237FAD241F39496000D61104 /* ZGBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZGBaseController.m; path = Base/ZGBaseController.m; sourceTree = "<group>"; };
+		237FAD261F39496000D61104 /* ZGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZGNavigationController.h; path = Base/ZGNavigationController.h; sourceTree = "<group>"; };
+		237FAD271F39496000D61104 /* ZGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZGNavigationController.m; path = Base/ZGNavigationController.m; sourceTree = "<group>"; };
+		237FAD291F39496000D61104 /* ZGTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZGTabBarController.h; path = Base/ZGTabBarController.h; sourceTree = "<group>"; };
+		237FAD2A1F39496000D61104 /* ZGTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZGTabBarController.m; path = Base/ZGTabBarController.m; sourceTree = "<group>"; };
+		237FAD2D1F39496000D61104 /* AppDelegate+AppService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+AppService.h"; path = "AppDelegate/AppDelegate+AppService.h"; sourceTree = "<group>"; };
+		237FAD2E1F39496000D61104 /* AppDelegate+AppService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+AppService.m"; path = "AppDelegate/AppDelegate+AppService.m"; sourceTree = "<group>"; };
+		237FAD331F39496000D61104 /* ZGHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGHomeController.h; sourceTree = "<group>"; };
+		237FAD341F39496000D61104 /* ZGHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGHomeController.m; sourceTree = "<group>"; };
+		237FAD3A1F39496000D61104 /* ZGLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGLoginController.h; sourceTree = "<group>"; };
+		237FAD3B1F39496000D61104 /* ZGLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGLoginController.m; sourceTree = "<group>"; };
+		237FAD411F39496000D61104 /* ZGMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGMineController.h; sourceTree = "<group>"; };
+		237FAD421F39496000D61104 /* ZGMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGMineController.m; sourceTree = "<group>"; };
+		237FAD4F1F39496000D61104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		237FAD511F39496000D61104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		237FAD541F39496000D61104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		237FAD561F39496000D61104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		237FAD031F39496000D61104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237FAD0A1F39496000D61104 /* SystemConfiguration.framework in Frameworks */,
+				237FAD0E1F39496000D61104 /* UIKit.framework in Frameworks */,
+				237FAD0C1F39496000D61104 /* Foundation.framework in Frameworks */,
+				237FAD101F39496000D61104 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		237FACFD1F39496000D61104 = {
+			isa = PBXGroup;
+			children = (
+				237FAD111F39496000D61104 /* ZGLYIconfont */,
+				237FAD081F39496000D61104 /* Frameworks */,
+				237FAD071F39496000D61104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		237FAD071F39496000D61104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD061F39496000D61104 /* ZGLYIconfont.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		237FAD081F39496000D61104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD091F39496000D61104 /* SystemConfiguration.framework */,
+				237FAD0B1F39496000D61104 /* Foundation.framework */,
+				237FAD0D1F39496000D61104 /* UIKit.framework */,
+				237FAD0F1F39496000D61104 /* CoreImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		237FAD111F39496000D61104 /* ZGLYIconfont */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD151F39496000D61104 /* AppDelegate.h */,
+				237FAD161F39496000D61104 /* AppDelegate.m */,
+				237FAD181F39496000D61104 /* ViewController.h */,
+				237FAD191F39496000D61104 /* ViewController.m */,
+				237FAD4E1F39496000D61104 /* Main.storyboard */,
+				237FAD511F39496000D61104 /* Assets.xcassets */,
+				237FAD531F39496000D61104 /* LaunchScreen.storyboard */,
+				237FAD561F39496000D61104 /* Info.plist */,
+				237FAD4C1F39496000D61104 /* Utils */,
+				237FAD4A1F39496000D61104 /* Resource */,
+				237FAD481F39496000D61104 /* ThridParty */,
+				237FAD461F39496000D61104 /* Manager */,
+				237FAD1B1F39496000D61104 /* Define */,
+				237FAD221F39496000D61104 /* Base */,
+				237FAD2C1F39496000D61104 /* AppDelegate */,
+				237FAD301F39496000D61104 /* Classes */,
+				237FAD121F39496000D61104 /* Supporting Files */,
+			);
+			path = ZGLYIconfont;
+			sourceTree = "<group>";
+		};
+		237FAD121F39496000D61104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD131F39496000D61104 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		237FAD1B1F39496000D61104 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD1C1F39496000D61104 /* PrefixHeader.pch */,
+				237FAD1E1F39496000D61104 /* ZGFontAndColorMacros.h */,
+				237FAD1F1F39496000D61104 /* ZGThirdMacros.h */,
+				237FAD201F39496000D61104 /* ZGURLMacros.h */,
+				237FAD211F39496000D61104 /* ZGUtilsMacros.h */,
+			);
+			name = Define;
+			sourceTree = "<group>";
+		};
+		237FAD221F39496000D61104 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD231F39496000D61104 /* ZGBaseController.h */,
+				237FAD241F39496000D61104 /* ZGBaseController.m */,
+				237FAD261F39496000D61104 /* ZGNavigationController.h */,
+				237FAD271F39496000D61104 /* ZGNavigationController.m */,
+				237FAD291F39496000D61104 /* ZGTabBarController.h */,
+				237FAD2A1F39496000D61104 /* ZGTabBarController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		237FAD2C1F39496000D61104 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD2D1F39496000D61104 /* AppDelegate+AppService.h */,
+				237FAD2E1F39496000D61104 /* AppDelegate+AppService.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		237FAD301F39496000D61104 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD3F1F39496000D61104 /* Mine */,
+				237FAD381F39496000D61104 /* Login */,
+				237FAD311F39496000D61104 /* Home */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		237FAD311F39496000D61104 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD321F39496000D61104 /* Controller */,
+				237FAD351F39496000D61104 /* Model */,
+				237FAD361F39496000D61104 /* View */,
+			);
+			name = Home;
+			path = Classes/Home;
+			sourceTree = "<group>";
+		};
+		237FAD321F39496000D61104 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD331F39496000D61104 /* ZGHomeController.h */,
+				237FAD341F39496000D61104 /* ZGHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		237FAD351F39496000D61104 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		237FAD361F39496000D61104 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		237FAD381F39496000D61104 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD391F39496000D61104 /* Controller */,
+				237FAD3C1F39496000D61104 /* Model */,
+				237FAD3D1F39496000D61104 /* View */,
+			);
+			name = Login;
+			path = Classes/Login;
+			sourceTree = "<group>";
+		};
+		237FAD391F39496000D61104 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD3A1F39496000D61104 /* ZGLoginController.h */,
+				237FAD3B1F39496000D61104 /* ZGLoginController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		237FAD3C1F39496000D61104 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		237FAD3D1F39496000D61104 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		237FAD3F1F39496000D61104 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD401F39496000D61104 /* Controller */,
+				237FAD431F39496000D61104 /* Model */,
+				237FAD441F39496000D61104 /* View */,
+			);
+			name = Mine;
+			path = Classes/Mine;
+			sourceTree = "<group>";
+		};
+		237FAD401F39496000D61104 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				237FAD411F39496000D61104 /* ZGMineController.h */,
+				237FAD421F39496000D61104 /* ZGMineController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		237FAD431F39496000D61104 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		237FAD441F39496000D61104 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		237FAD461F39496000D61104 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		237FAD481F39496000D61104 /* ThridParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThridParty;
+			sourceTree = "<group>";
+		};
+		237FAD4A1F39496000D61104 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		237FAD4C1F39496000D61104 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		237FAD051F39496000D61104 /* ZGLYIconfont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 237FAD591F39496000D61104 /* Build configuration list for PBXNativeTarget "ZGLYIconfont" */;
+			buildPhases = (
+				237FAD021F39496000D61104 /* Sources */,
+				237FAD031F39496000D61104 /* Frameworks */,
+				237FAD041F39496000D61104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGLYIconfont;
+			productName = ZGLYIconfont;
+			productReference = 237FAD061F39496000D61104 /* ZGLYIconfont.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		237FACFE1F39496000D61104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cn;
+				TargetAttributes = {
+					237FAD051F39496000D61104 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 237FAD011F39496000D61104 /* Build configuration list for PBXProject "ZGLYIconfont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 237FACFD1F39496000D61104;
+			productRefGroup = 237FAD071F39496000D61104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				237FAD051F39496000D61104 /* ZGLYIconfont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		237FAD041F39496000D61104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237FAD1D1F39496000D61104 /* PrefixHeader.pch in Resources */,
+				237FAD371F39496000D61104 /* View in Resources */,
+				237FAD3E1F39496000D61104 /* View in Resources */,
+				237FAD4B1F39496000D61104 /* Resource in Resources */,
+				237FAD521F39496000D61104 /* Assets.xcassets in Resources */,
+				237FAD451F39496000D61104 /* View in Resources */,
+				237FAD471F39496000D61104 /* Manager in Resources */,
+				237FAD501F39496000D61104 /* Main.storyboard in Resources */,
+				237FAD4D1F39496000D61104 /* Utils in Resources */,
+				237FAD551F39496000D61104 /* LaunchScreen.storyboard in Resources */,
+				237FAD491F39496000D61104 /* ThridParty in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		237FAD021F39496000D61104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237FAD281F39496000D61104 /* ZGNavigationController.m in Sources */,
+				237FAD1A1F39496000D61104 /* ViewController.m in Sources */,
+				237FAD2B1F39496000D61104 /* ZGTabBarController.m in Sources */,
+				237FAD251F39496000D61104 /* ZGBaseController.m in Sources */,
+				237FAD171F39496000D61104 /* AppDelegate.m in Sources */,
+				237FAD141F39496000D61104 /* main.m in Sources */,
+				237FAD2F1F39496000D61104 /* AppDelegate+AppService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		237FAD4E1F39496000D61104 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				237FAD4F1F39496000D61104 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		237FAD531F39496000D61104 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				237FAD541F39496000D61104 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		237FAD571F39496000D61104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		237FAD581F39496000D61104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		237FAD5A1F39496000D61104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGLYIconfont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = offcn.ZGLYIconfont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		237FAD5B1F39496000D61104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGLYIconfont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = offcn.ZGLYIconfont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		237FAD011F39496000D61104 /* Build configuration list for PBXProject "ZGLYIconfont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				237FAD571F39496000D61104 /* Debug */,
+				237FAD581F39496000D61104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		237FAD591F39496000D61104 /* Build configuration list for PBXNativeTarget "ZGLYIconfont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				237FAD5A1F39496000D61104 /* Debug */,
+				237FAD5B1F39496000D61104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 237FACFE1F39496000D61104 /* Project object */;
+}
